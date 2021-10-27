@@ -13,12 +13,7 @@ else
 		if game.PlaceId == 4520749081 or game.PlaceId == 6381829480 then
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/Kitakuxo/KL/main/KL.lua", true))()
 		else
---ars
-		if game.PlaceId == 286090429 then
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/Kitakuxo/Arsenal/main/Ars.lua", true))()
-		else
-				game.Players.LocalPlayer:Kick("Game not Support")
-			end
+	             game.Players.LocalPlayer:Kick("Game not Support")
 		end
 	end
 end
